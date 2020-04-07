@@ -53,7 +53,7 @@ export class MemberListComponent implements OnInit {
       this.pagination = res.pagination;
     }, error => {
       this.alertify.error(error);
-    })
+    });
   }
 
 }
